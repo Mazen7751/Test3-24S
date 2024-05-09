@@ -128,11 +128,12 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            label3.Location = new Point(225, 189);
+            label3.Location = new Point(205, 189);
             label3.Name = "label3";
             label3.Size = new Size(107, 32);
             label3.TabIndex = 2;
             label3.Text = "Average";
+            label3.Click += label3_Click;
             // 
             // Form1
             // 

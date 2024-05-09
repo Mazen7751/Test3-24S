@@ -21,7 +21,7 @@ namespace Test3_24S
 
         private void button2_Click(object sender, EventArgs e)
         {
-          
+
             double r = 0;
             textBox1 = new TextBox();
             textBox2.Text = r.ToString();
@@ -30,6 +30,11 @@ namespace Test3_24S
             textBox3 = new TextBox();
             textBox4.Text = r.ToString();
 
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
 
         }
     }
